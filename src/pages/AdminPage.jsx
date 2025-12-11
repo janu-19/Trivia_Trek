@@ -69,7 +69,9 @@ function AdminContent() {
       form.correctAnswer < 0 ||
       form.correctAnswer >= trimmedOptions.length
     ) {
-      return "Correct answer index must be between 0 "
+      return "Correct answer index must be between 0 and 3."
+    }
+
     return null
   }
 
@@ -306,7 +308,7 @@ function AdminContent() {
     </div>
   )
 }
-}
+
 export default function AdminPage() {
   const { user } = useAuth()
   const location = useLocation()
