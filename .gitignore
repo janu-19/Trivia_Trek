@@ -1,0 +1,48 @@
+# --- Dependencies ---
+# Node package manager directory
+/node_modules
+/jspm_packages/
+# Yarn lockfiles
+yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+# --- Build and Distribution ---
+# Compiled/transpiled/bundled project files
+/dist/
+/build/
+/out/
+/temp/
+
+# --- Temporary and Logs ---
+# Runtime logs and debugging files
+*.log
+npm-debug.log*
+lerna-debug.log*
+# Jest/Testing coverage reports
+/coverage
+
+# --- Operating System Files ---
+# Mac OS X
+.DS_Store
+# Windows
+Thumbs.db
+
+# --- Environment and Sensitive Files ---
+# Crucial: These files often contain API keys, credentials, or production secrets.
+.env
+.env.*
+.vault
+
+# --- IDE and Editor Files ---
+# Visual Studio Code
+.vscode/
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+# Sublime Text
+*.sublime-workspace
+# Atom
+.atom/
+"node_modules/" 
+"node_modules/" 
+"trivia-trek-app.zip" 

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f8fafc;
+  color: #1e293b;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark body {
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+}
+
+.text-gradient {
+  color: #60a5fa;
+}
+
+.glass-card {
+  background-color: #0b1120;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.7);
+  border-radius: 1.25rem;
+}
+
+.glass-dark {
+  background-color: #ffffff;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.1);
+}
+
+.dark .glass-dark {
+  background-color: #1e293b;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.9);
+}
+
+.badge-pill {
+  border-radius: 999px;
+}
+
+.grid-auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+input[type="email"],
+input[type="password"] {
+  color: #000; 
+  background-color: #fff; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: #888; /* Placeholder text color */
+}

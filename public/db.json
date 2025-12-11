@@ -1,0 +1,1088 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Jahnavi",
+      "email": "jahnavi@gmail.com",
+      "password": "jahnavi",
+      "role": "admin",
+      "stats": {
+        "totalQuizzes": 152,
+        "bestScore": 100,
+        "correctAnswers": 1457,
+        "totalAnswers": 1510
+      },
+      "badges": [
+        "first_step",
+        "perfect_score",
+        "speed_runner",
+        "quiz_master"
+      ],
+      "joinedAt": "2024-01-15",
+      "progressionByCategory": {
+        "science": {
+          "easyCompleted": 5,
+          "mediumUnlocked": true,
+          "mediumCompleted": 3,
+          "hardUnlocked": true,
+          "hardCompleted": 1
+        },
+        "history": {
+          "easyCompleted": 3,
+          "mediumUnlocked": true,
+          "mediumCompleted": 2,
+          "hardUnlocked": false,
+          "hardCompleted": 0
+        },
+        "geography": {
+          "easyCompleted": 2,
+          "mediumUnlocked": false,
+          "mediumCompleted": 0,
+          "hardUnlocked": false,
+          "hardCompleted": 0
+        },
+        "tech": {
+          "easyCompleted": 0,
+          "mediumUnlocked": false,
+          "mediumCompleted": 0,
+          "hardUnlocked": false,
+          "hardCompleted": 0
+        },
+        "sports": {
+          "easyCompleted": 0,
+          "mediumUnlocked": false,
+          "mediumCompleted": 0,
+          "hardUnlocked": false,
+          "hardCompleted": 0
+        }
+      }
+    },
+    {
+      "id": 2,
+      "username": "BrainGenius",
+      "email": "brain@example.com",
+      "password": "hashed_password_2",
+      "role": "user",
+      "stats": {
+        "totalQuizzes": 142,
+        "bestScore": 100,
+        "correctAnswers": 1365,
+        "totalAnswers": 1500
+      },
+      "badges": [
+        "first_step",
+        "perfect_score"
+      ],
+      "joinedAt": "2024-02-01",
+      "progressionByCategory": {
+        "science": {
+          "easyCompleted": 4,
+          "mediumUnlocked": true,
+          "mediumCompleted": 2,
+          "hardUnlocked": false,
+          "hardCompleted": 0
+        }
+      }
+    },
+    {
+      "username": "bindu06",
+      "email": "bindu@example.com",
+      "password": "bindu06",
+      "role": "user",
+      "stats": {
+        "totalQuizzes": 0,
+        "bestScore": 0,
+        "correctAnswers": 0,
+        "totalAnswers": 0
+      },
+      "badges": [
+        "first_step"
+      ],
+      "joinedAt": "2025-11-26T09:27:33.260Z",
+      "progressionByCategory": {},
+      "id": 3
+    },
+    {
+      "username": "janu",
+      "email": "janu@gmail.com",
+      "password": "janu",
+      "role": "user",
+      "stats": {
+        "totalQuizzes": 2,
+        "bestScore": 20,
+        "correctAnswers": 1,
+        "totalAnswers": 9
+      },
+      "badges": [
+        "first_step"
+      ],
+      "joinedAt": "2025-12-01T14:23:54.143Z",
+      "progressionByCategory": {},
+      "id": 4
+    },
+    {
+      "username": "Ruthvik_l",
+      "email": "ruthvik6336@gmail.com",
+      "password": "sunny",
+      "role": "user",
+      "stats": {
+        "totalQuizzes": 8,
+        "bestScore": 100,
+        "correctAnswers": 21,
+        "totalAnswers": 29
+      },
+      "badges": [
+        "first_step"
+      ],
+      "joinedAt": "2025-12-02T02:35:10.826Z",
+      "progressionByCategory": {},
+      "id": 5
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "science",
+      "difficulty": "easy",
+      "question": "What is the chemical symbol for Gold?",
+      "options": [
+        "Au",
+        "Ag",
+        "Gd",
+        "Go"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "category": "science",
+      "difficulty": "easy",
+      "question": "How many planets are in our solar system?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "category": "science",
+      "difficulty": "easy",
+      "question": "What gas do plants absorb from the atmosphere?",
+      "options": [
+        "Carbon Dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "category": "science",
+      "difficulty": "easy",
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Diamond",
+        "Granite",
+        "Iron",
+        "Titanium"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "category": "science",
+      "difficulty": "easy",
+      "question": "What is the smallest unit of life?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Cell",
+        "Organ"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "category": "science",
+      "difficulty": "medium",
+      "question": "What is the speed of light?",
+      "options": [
+        "300,000 km/s",
+        "150,000 km/s",
+        "500,000 km/s",
+        "100,000 km/s"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "category": "science",
+      "difficulty": "medium",
+      "question": "What is the boiling point of water at sea level?",
+      "options": [
+        "100°C",
+        "95°C",
+        "105°C",
+        "110°C"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "category": "science",
+      "difficulty": "medium",
+      "question": "How many bones does an adult human have?",
+      "options": [
+        "206",
+        "186",
+        "226",
+        "166"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "category": "science",
+      "difficulty": "medium",
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "category": "science",
+      "difficulty": "hard",
+      "question": "What is the name of the protein that carries oxygen in the blood?",
+      "options": [
+        "Hemoglobin",
+        "Myoglobin",
+        "Chlorophyll",
+        "Collagen"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "category": "science",
+      "difficulty": "hard",
+      "question": "What is the only mammal capable of true flight?",
+      "options": [
+        "Bat",
+        "Flying squirrel",
+        "Flying fish",
+        "Flying dragon"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "category": "science",
+      "difficulty": "hard",
+      "question": "What does DNA stand for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dynamic Nucleic Acid",
+        "Diatomic Nitrogen Atom",
+        "None of the above"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "category": "history",
+      "difficulty": "easy",
+      "question": "In what year did World War II end?",
+      "options": [
+        "1943",
+        "1944",
+        "1945",
+        "1946"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "category": "history",
+      "difficulty": "easy",
+      "question": "Who was the first President of the United States?",
+      "options": [
+        "Thomas Jefferson",
+        "George Washington",
+        "John Adams",
+        "James Madison"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "category": "history",
+      "difficulty": "easy",
+      "question": "In what year did the Titanic sink?",
+      "options": [
+        "1910",
+        "1911",
+        "1912",
+        "1913"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "category": "history",
+      "difficulty": "easy",
+      "question": "Which ancient wonder is located in Egypt?",
+      "options": [
+        "Colossus of Rhodes",
+        "Great Pyramid of Giza",
+        "Hanging Gardens",
+        "Lighthouse of Alexandria"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "category": "history",
+      "difficulty": "medium",
+      "question": "In what year did the Berlin Wall fall?",
+      "options": [
+        "1987",
+        "1988",
+        "1989",
+        "1990"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "category": "history",
+      "difficulty": "medium",
+      "question": "Who invented the printing press?",
+      "options": [
+        "Leonardo da Vinci",
+        "Gutenberg",
+        "Michelangelo",
+        "Raphael"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "category": "history",
+      "difficulty": "medium",
+      "question": "The Renaissance began in which country?",
+      "options": [
+        "France",
+        "Spain",
+        "Italy",
+        "Germany"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 20,
+      "category": "history",
+      "difficulty": "hard",
+      "question": "Who was the first Holy Roman Emperor?",
+      "options": [
+        "Otto I",
+        "Charlemagne",
+        "Frederick Barbarossa",
+        "Charles V"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "category": "geography",
+      "difficulty": "easy",
+      "question": "What is the capital of France?",
+      "options": [
+        "London",
+        "Berlin",
+        "Paris",
+        "Madrid"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "category": "geography",
+      "difficulty": "easy",
+      "question": "Which is the largest continent?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "category": "geography",
+      "difficulty": "easy",
+      "question": "What is the capital of Japan?",
+      "options": [
+        "Osaka",
+        "Tokyo",
+        "Kyoto",
+        "Hiroshima"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "category": "geography",
+      "difficulty": "easy",
+      "question": "How many countries are in Europe?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "category": "geography",
+      "difficulty": "medium",
+      "question": "Which is the largest country in the world by area?",
+      "options": [
+        "Canada",
+        "Russia",
+        "United States",
+        "China"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "category": "geography",
+      "difficulty": "medium",
+      "question": "What is the capital of Australia?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 27,
+      "category": "geography",
+      "difficulty": "medium",
+      "question": "Which country has the most islands?",
+      "options": [
+        "Indonesia",
+        "Philippines",
+        "Sweden",
+        "Norway"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "category": "geography",
+      "difficulty": "hard",
+      "question": "What is the capital of Bhutan?",
+      "options": [
+        "Thimphu",
+        "Paro",
+        "Punakha",
+        "Tongsa"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "category": "tech",
+      "difficulty": "easy",
+      "question": "What does CPU stand for?",
+      "options": [
+        "Central Processing Unit",
+        "Central Program Utility",
+        "Computer Personal Unit",
+        "Central Processor Upgrade"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "category": "tech",
+      "difficulty": "easy",
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "category": "tech",
+      "difficulty": "easy",
+      "question": "Who is known as the father of computers?",
+      "options": [
+        "Alan Turing",
+        "Charles Babbage",
+        "Bill Gates",
+        "Steve Jobs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "category": "tech",
+      "difficulty": "easy",
+      "question": "What does GPU stand for?",
+      "options": [
+        "Graphics Processing Unit",
+        "General Purpose Unit",
+        "Graphics Program Utility",
+        "Graphical Processor Unit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "category": "tech",
+      "difficulty": "medium",
+      "question": "Which programming language is known as the 'language of the web'?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "C++"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "category": "tech",
+      "difficulty": "medium",
+      "question": "What is the most widely used database system?",
+      "options": [
+        "MongoDB",
+        "MySQL",
+        "Oracle",
+        "PostgreSQL"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "category": "tech",
+      "difficulty": "medium",
+      "question": "Who invented the World Wide Web?",
+      "options": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Tim Berners-Lee",
+        "Linus Torvalds"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 36,
+      "category": "tech",
+      "difficulty": "hard",
+      "question": "What is the time complexity of binary search?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 37,
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "How many players are on a basketball team on the court?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "What is the maximum score in a single frame of bowling?",
+      "options": [
+        "100",
+        "200",
+        "300",
+        "400"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 39,
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "How many holes are in a standard golf course?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "36"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "category": "sports",
+      "difficulty": "easy",
+      "question": "How many innings are in a baseball game?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 41,
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "How many players are on a soccer team on the field?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 42,
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "In which country did tennis originate?",
+      "options": [
+        "England",
+        "France",
+        "Italy",
+        "Spain"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "category": "sports",
+      "difficulty": "medium",
+      "question": "What is the height of a basketball hoop?",
+      "options": [
+        "8 feet",
+        "9 feet",
+        "10 feet",
+        "11 feet"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 44,
+      "category": "sports",
+      "difficulty": "hard",
+      "question": "How many Olympic rings are there?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "category": "movies",
+      "difficulty": "easy",
+      "question": "Who directed the movie Jurassic Park?",
+      "options": [
+        "Steven Spielberg",
+        "James Cameron",
+        "Christopher Nolan",
+        "Ridley Scott"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "category": "movies",
+      "difficulty": "easy",
+      "question": "Which movie features the quote 'May the Force be with you'?",
+      "options": [
+        "Star Wars",
+        "Star Trek",
+        "Avatar",
+        "The Matrix"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "category": "movies",
+      "difficulty": "medium",
+      "question": "Which film won the Best Picture Oscar in 2020?",
+      "options": [
+        "1917",
+        "Parasite",
+        "Joker",
+        "Ford v Ferrari"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "category": "movies",
+      "difficulty": "medium",
+      "question": "Who played Jack Dawson in Titanic?",
+      "options": [
+        "Leonardo DiCaprio",
+        "Brad Pitt",
+        "Tom Cruise",
+        "Matt Damon"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "category": "movies",
+      "difficulty": "hard",
+      "question": "Which studio produced the animated film Spirited Away?",
+      "options": [
+        "Studio Ghibli",
+        "Pixar",
+        "DreamWorks",
+        "Laika"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "category": "movies",
+      "difficulty": "hard",
+      "question": "In which year was The Godfather released?",
+      "options": [
+        "1970",
+        "1972",
+        "1974",
+        "1976"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 51,
+      "category": "general knowledge",
+      "difficulty": "easy",
+      "question": "What is the capital city of Canada?",
+      "options": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver",
+        "Montreal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 52,
+      "category": "general knowledge",
+      "difficulty": "easy",
+      "question": "How many continents are there on Earth?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 53,
+      "category": "general knowledge",
+      "difficulty": "medium",
+      "question": "Which element has the chemical symbol 'Na'?",
+      "options": [
+        "Sodium",
+        "Nitrogen",
+        "Neon",
+        "Nickel"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 54,
+      "category": "general knowledge",
+      "difficulty": "medium",
+      "question": "Which language has the most native speakers worldwide?",
+      "options": [
+        "English",
+        "Spanish",
+        "Mandarin Chinese",
+        "Hindi"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 55,
+      "category": "general knowledge",
+      "difficulty": "hard",
+      "question": "What is the smallest prime number greater than 100?",
+      "options": [
+        "101",
+        "103",
+        "107",
+        "109"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "category": "general knowledge",
+      "difficulty": "hard",
+      "question": "Which country was formerly known as Abyssinia?",
+      "options": [
+        "Ethiopia",
+        "Sudan",
+        "Somalia",
+        "Eritrea"
+      ],
+      "correctAnswer": 0,
+      "authorId": 1,
+      "authorName": "QuizMaster",
+      "id": 56
+    }
+  ],
+  "quizResults": [
+    {
+      "id": 1,
+      "userId": 1,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 10,
+      "total": 10,
+      "percentage": 100,
+      "completedAt": "2024-11-18"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "category": "history",
+      "difficulty": "easy",
+      "score": 9,
+      "total": 10,
+      "percentage": 90,
+      "completedAt": "2024-11-17"
+    },
+    {
+      "userId": 3,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 1,
+      "total": 5,
+      "percentage": 20,
+      "completedAt": "2025-11-26T09:28:06.469Z",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "category": "sports",
+      "difficulty": "easy",
+      "score": 1,
+      "total": 4,
+      "percentage": 25,
+      "completedAt": "2025-11-26T09:29:18.394Z",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 3,
+      "total": 5,
+      "percentage": 60,
+      "completedAt": "2025-11-26T09:44:59.720Z",
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "category": "sports",
+      "difficulty": "easy",
+      "score": 2,
+      "total": 4,
+      "percentage": 50,
+      "completedAt": "2025-12-01T14:24:15.925Z",
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 1,
+      "total": 5,
+      "percentage": 20,
+      "completedAt": "2025-12-01T14:27:50.200Z",
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "category": "sports",
+      "difficulty": "easy",
+      "score": 0,
+      "total": 4,
+      "percentage": 0,
+      "completedAt": "2025-12-01T15:30:52.488Z",
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 4,
+      "total": 5,
+      "percentage": 80,
+      "completedAt": "2025-12-02T02:37:22.523Z",
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "category": "history",
+      "difficulty": "easy",
+      "score": 4,
+      "total": 4,
+      "percentage": 100,
+      "completedAt": "2025-12-02T02:39:03.062Z",
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "category": "movies",
+      "difficulty": "medium",
+      "score": 1,
+      "total": 2,
+      "percentage": 50,
+      "completedAt": "2025-12-02T02:40:29.811Z",
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "category": "movies",
+      "difficulty": "easy",
+      "score": 1,
+      "total": 2,
+      "percentage": 50,
+      "completedAt": "2025-12-02T03:10:00.931Z",
+      "id": 12
+    },
+    {
+      "userId": 5,
+      "category": "geography",
+      "difficulty": "easy",
+      "score": 2,
+      "total": 4,
+      "percentage": 50,
+      "completedAt": "2025-12-02T03:17:50.718Z",
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "category": "tech",
+      "difficulty": "easy",
+      "score": 3,
+      "total": 4,
+      "percentage": 75,
+      "completedAt": "2025-12-02T03:18:57.584Z",
+      "id": 14
+    },
+    {
+      "userId": 5,
+      "category": "science",
+      "difficulty": "hard",
+      "score": 3,
+      "total": 3,
+      "percentage": 100,
+      "completedAt": "2025-12-02T03:20:24.984Z",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 4,
+      "total": 5,
+      "percentage": 80,
+      "completedAt": "2025-12-02T05:30:46.250Z",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 3,
+      "total": 5,
+      "percentage": 60,
+      "completedAt": "2025-12-02T06:25:06.088Z",
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "category": "science",
+      "difficulty": "easy",
+      "score": 3,
+      "total": 5,
+      "percentage": 60,
+      "completedAt": "2025-12-02T06:49:48.783Z",
+      "id": 18
+    }
+  ],
+  "badges": [
+    {
+      "id": "first_step",
+      "name": "First Step",
+      "description": "Complete your first quiz",
+      "icon": "🌟"
+    },
+    {
+      "id": "perfect_score",
+      "name": "Perfect Score",
+      "description": "Score 100% on a quiz",
+      "icon": "💯"
+    },
+    {
+      "id": "speed_runner",
+      "name": "Speed Runner",
+      "description": "Complete 50 quizzes",
+      "icon": "⚡"
+    },
+    {
+      "id": "quiz_master",
+      "name": "Quiz Master",
+      "description": "Complete 100 quizzes",
+      "icon": "👑"
+    },
+    {
+      "id": "knowledge_king",
+      "name": "Knowledge King",
+      "description": "Score 500 correct answers",
+      "icon": "🧠"
+    }
+  ]
+}
